@@ -1,0 +1,541 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "hero": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "#เมนู",
+                "size": "24px",
+                "color": "#ffffff",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "เมนูและตัวอย่างการใช้งาน",
+                "size": "14px",
+                "color": "#ffffff",
+                "weight": "bold",
+                "offsetBottom": "3px"
+              }
+            ],
+            "justifyContent": "center"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://media.discordapp.net/attachments/1130113229700477089/1158835989414952980/Group_5815.png?ex=651db19e&is=651c601e&hm=3b4f858cecc02d3d32f03dac6e3d961c3e32fd9cafdad38959a87a4b88715c5d&=",
+                "size": "60px",
+                "offsetTop": "12px",
+                "offsetStart": "58px"
+              },
+              {
+                "type": "image",
+                "url": "https://media.discordapp.net/attachments/1130113229700477089/1158835990044086464/image_3.png?ex=651db19e&is=651c601e&hm=937720d5fcfc895673bd5c74cd238518aa5966b27bda6f1959b48e2a3e166fc7&=",
+                "size": "45px",
+                "offsetBottom": "23px",
+                "offsetStart": "50px"
+              },
+              {
+                "type": "image",
+                "url": "https://media.discordapp.net/attachments/1130113229700477089/1158835989725323365/menu_1_1.png?ex=651db19e&is=651c601e&hm=ee3610be1422ad919502de19f9c3a4112f9f4cb283c24c8ab49c79e641361c6f&=",
+                "size": "30px",
+                "offsetBottom": "90px",
+                "offsetStart": "25px"
+              }
+            ],
+            "offsetEnd": "5%"
+          }
+        ]
+      }
+    ],
+    "backgroundColor": "#0057DD",
+    "height": "70px",
+    "paddingStart": "16px"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "#หา",
+                    "color": "#0057DD",
+                    "size": "16px",
+                    "weight": "bold"
+                  }
+                ],
+                "width": "30px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ชื่อสินค้า (เช่นตะปู)",
+                    "size": "14px",
+                    "color": "#373737",
+                    "offsetTop": "2px",
+                    "weight": "bold"
+                  }
+                ],
+                "width": "120px",
+                "margin": "5px"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "แสดงข้อมูลเกี่ยวกับ Product, Price, Stock",
+                "color": "#676767",
+                "size": "14px",
+                "weight": "regular"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "height": "1px",
+            "backgroundColor": "#A8AAAE",
+            "margin": "12px"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "#cat",
+                    "color": "#0057DD",
+                    "size": "16px",
+                    "weight": "bold"
+                  }
+                ],
+                "width": "35px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ชื่อ Catalog (เช่นโมเนีย)",
+                    "size": "14px",
+                    "color": "#373737",
+                    "offsetTop": "2px",
+                    "weight": "bold"
+                  }
+                ],
+                "width": "155px",
+                "margin": "5px"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "แสดงข้อมูลเกี่ยวกับ Product, Price, Stock",
+                "color": "#676767",
+                "size": "14px",
+                "weight": "regular"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "height": "1px",
+            "backgroundColor": "#A8AAAE",
+            "margin": "12px"
+          }
+        ],
+        "margin": "12px"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "#โปร",
+                    "color": "#0057DD",
+                    "size": "16px",
+                    "weight": "bold"
+                  }
+                ],
+                "width": "40px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ชื่อสินค้า (เช่นตะปู)",
+                    "size": "14px",
+                    "color": "#373737",
+                    "offsetTop": "2px",
+                    "weight": "bold"
+                  }
+                ],
+                "width": "155px",
+                "margin": "5px"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "แสดงข้อมูลเกี่ยวกับ Product, Price, Stock",
+                "color": "#676767",
+                "size": "14px",
+                "weight": "regular"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "height": "1px",
+            "backgroundColor": "#A8AAAE",
+            "margin": "12px"
+          }
+        ],
+        "margin": "12px"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "#คู่มือ",
+                    "color": "#0057DD",
+                    "size": "16px",
+                    "weight": "bold"
+                  }
+                ],
+                "width": "45px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ชื่อสินค้า (เช่นตะปู)",
+                    "size": "14px",
+                    "color": "#373737",
+                    "offsetTop": "2px",
+                    "weight": "bold"
+                  }
+                ],
+                "width": "155px",
+                "margin": "5px"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "แสดงข้อมูลเกี่ยวกับ Product, Price, Stock",
+                "color": "#676767",
+                "size": "14px",
+                "weight": "regular"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "height": "1px",
+            "backgroundColor": "#A8AAAE",
+            "margin": "12px"
+          }
+        ],
+        "margin": "12px"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "#Pคู่แข่ง ชื่อสินค้า",
+                    "color": "#0057DD",
+                    "size": "16px",
+                    "weight": "bold"
+                  }
+                ],
+                "width": "130px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "//ราคา --หมายเหตุ",
+                    "size": "14px",
+                    "color": "#373737",
+                    "offsetTop": "2px",
+                    "weight": "bold"
+                  }
+                ],
+                "width": "155px",
+                "margin": "5px"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "แสดงข้อมูลเกี่ยวกับ Product, Price, Stock",
+                "color": "#676767",
+                "size": "14px",
+                "weight": "regular"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "height": "1px",
+            "backgroundColor": "#A8AAAE",
+            "margin": "12px"
+          }
+        ],
+        "margin": "12px"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "#Noสินค้า",
+                    "color": "#0057DD",
+                    "size": "16px",
+                    "weight": "bold"
+                  }
+                ],
+                "width": "75px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "//ราคา",
+                    "size": "14px",
+                    "color": "#373737",
+                    "offsetTop": "2px",
+                    "weight": "bold"
+                  }
+                ],
+                "width": "155px",
+                "margin": "5px"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "แสดงข้อมูลเกี่ยวกับ Product, Price, Stock",
+                "color": "#676767",
+                "size": "14px",
+                "weight": "regular"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "height": "1px",
+            "backgroundColor": "#A8AAAE",
+            "margin": "12px"
+          }
+        ],
+        "margin": "12px"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "#สินค้ามีขายหรือไม่",
+                    "color": "#0057DD",
+                    "size": "16px",
+                    "weight": "bold"
+                  }
+                ],
+                "width": "140px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ตามด้วยส่งรูปภาพ",
+                    "size": "14px",
+                    "color": "#373737",
+                    "offsetTop": "2px",
+                    "weight": "bold"
+                  }
+                ],
+                "width": "155px",
+                "margin": "5px"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "แสดงข้อมูลเกี่ยวกับ Product, Price, Stock",
+                "color": "#676767",
+                "size": "14px",
+                "weight": "regular"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "height": "1px",
+            "backgroundColor": "#A8AAAE",
+            "margin": "12px"
+          }
+        ],
+        "margin": "12px"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://cdn.discordapp.com/attachments/1159127757154959430/1159132440204423389/Group_6609.png?ex=651ec5b5&is=651d7435&hm=fb7219d41071b9dd4d2053fe82b1f0c355d3202b6df362d27dc1cd2fbf644261&",
+            "aspectRatio": "7:1",
+            "aspectMode": "fit",
+            "offsetStart": "12px"
+          }
+        ],
+        "alignItems": "flex-end",
+        "offsetTop": "10px",
+        "offsetStart": "10px"
+      }
+    ],
+    "paddingStart": "16px",
+    "paddingEnd": "16px",
+    "height": "100%"
+  }
+}

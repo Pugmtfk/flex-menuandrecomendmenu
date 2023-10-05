@@ -1,0 +1,253 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1159127757154959430/1159130129381994606/Auto_Layout_Horizontal.png?ex=651ec38e&is=651d720e&hm=fce2780159b51cb3261cbfe4fca7e5d2dab3fa0a837fa6a76956b1d5ee322d24&",
+        "size": "full",
+        "aspectRatio": "5:1",
+        "offsetBottom": "2px"
+      }
+    ],
+    "paddingAll": "0px",
+    "paddingBottom": "0px",
+    "paddingTop": "0px"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1159127757154959430/1159127948645900380/Group_6608.png?ex=651ec186&is=651d7006&hm=7b9ec570ec74339c4dd6f963de984ec5fb81f8978a353daa61e78f4570f8ec47&",
+        "size": "full",
+        "aspectRatio": "2:3",
+        "gravity": "center",
+        "offsetBottom": "20px",
+        "aspectMode": "fit"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "height": "100%",
+                "action": {
+                  "type": "message",
+                  "label": "action",
+                  "text": "box1"
+                },
+                "width": "30%"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "height": "100%",
+                "action": {
+                  "type": "message",
+                  "label": "action",
+                  "text": "box2"
+                },
+                "width": "30%",
+                "position": "absolute",
+                "offsetStart": "31%"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "width": "30%",
+                "height": "100%",
+                "action": {
+                  "type": "message",
+                  "label": "action",
+                  "text": "box3"
+                },
+                "position": "absolute",
+                "offsetStart": "63%"
+              }
+            ],
+            "position": "relative"
+          }
+        ],
+        "position": "absolute",
+        "offsetStart": "15px",
+        "offsetTop": "4%",
+        "height": "20%",
+        "width": "100%"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "height": "100%",
+                "action": {
+                  "type": "message",
+                  "label": "action",
+                  "text": "box4"
+                },
+                "width": "30%"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "height": "100%",
+                "action": {
+                  "type": "message",
+                  "label": "action",
+                  "text": "box5"
+                },
+                "width": "30%",
+                "position": "absolute",
+                "offsetStart": "31%"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "width": "30%",
+                "height": "100%",
+                "action": {
+                  "type": "message",
+                  "label": "action",
+                  "text": "box6"
+                },
+                "position": "absolute",
+                "offsetStart": "63%"
+              }
+            ],
+            "position": "relative"
+          }
+        ],
+        "position": "absolute",
+        "offsetStart": "15px",
+        "offsetTop": "27%",
+        "height": "20%",
+        "width": "100%"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "height": "100%",
+                "action": {
+                  "type": "message",
+                  "label": "action",
+                  "text": "box7"
+                },
+                "width": "30%"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "height": "100%",
+                "action": {
+                  "type": "message",
+                  "label": "action",
+                  "text": "box8"
+                },
+                "width": "30%",
+                "position": "absolute",
+                "offsetStart": "31%"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "width": "30%",
+                "height": "100%",
+                "action": {
+                  "type": "message",
+                  "label": "action",
+                  "text": "box9"
+                },
+                "position": "absolute",
+                "offsetStart": "63%"
+              }
+            ],
+            "position": "relative"
+          }
+        ],
+        "position": "absolute",
+        "offsetStart": "15px",
+        "offsetTop": "51%",
+        "height": "20%",
+        "width": "100%"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [],
+            "position": "relative",
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "box10"
+            }
+          }
+        ],
+        "position": "absolute",
+        "offsetStart": "15px",
+        "offsetTop": "75%",
+        "height": "20%",
+        "width": "95%"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://cdn.discordapp.com/attachments/1159127757154959430/1159132440204423389/Group_6609.png?ex=651ec5b5&is=651d7435&hm=fb7219d41071b9dd4d2053fe82b1f0c355d3202b6df362d27dc1cd2fbf644261&",
+            "aspectRatio": "7:1",
+            "aspectMode": "fit",
+            "offsetStart": "20px"
+          }
+        ],
+        "paddingStart": "10px",
+        "paddingEnd": "10px",
+        "offsetBottom": "30px",
+        "justifyContent": "flex-end",
+        "alignItems": "flex-end"
+      }
+    ],
+    "paddingAll": "0px",
+    "paddingTop": "5px",
+    "paddingBottom": "0px",
+    "position": "relative"
+  }
+}
